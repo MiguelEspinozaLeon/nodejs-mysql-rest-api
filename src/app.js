@@ -11,7 +11,7 @@ app.use(cors());
 
 app.use('/api', indexRoutes);
 app.use('/api', employeesRoutes);
-app.use.
+
 
 app.use((req, res, next) => {
     res.status(404).json({
