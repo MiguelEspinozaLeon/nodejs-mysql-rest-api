@@ -1,8 +1,8 @@
 import express from 'express'
 import employeesRoutes from './routes/employees.routes.js'
 import indexRoutes from './routes/index.routes.js'
+import cors from 'cors'
 
-var cors = require('cors');
 
 const app = express();
 
